@@ -3,9 +3,10 @@
 Created on Thu Sep 24 13:01:17 2020
 
 """
+#sklearn and streamlit in the first two lines is added after the module not found error during deployment
 
-
-
+import sklearn
+import streamlit
 import pandas as pd
 import streamlit as st 
 from sklearn.linear_model import LogisticRegression
