@@ -9,3 +9,4 @@ matplotlib.pyplot
 seaborn
 wordcloud
 WordCloud
+from textblob import TextBlob
